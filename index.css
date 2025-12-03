@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header style */
+header{
+    z-index: 1000;
+    background-color: rgb(135, 3, 3);
+    color: white;
+    width: 80%;
+margin: auto;
+    display: block;
+    text-align: center;
+       font-weight: 900;
+    font-style: italic;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    border-radius:  0 0 100px 100px ;
+}
+.header--nav--ul{
+    list-style: none;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* section home style */
+.section--home{
+    color: white;
+    background-color: darkslategray;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+    margin: 400px auto 0 auto ;
+width: 80%;
+text-align: center;
+border:10px  solid;
+border-color: red green black yellow;
+padding: 5px;
+border-radius: 50px;
+
+}
+.section--img{
+    max-width: 400px;
+    min-width: 200px;
+    height: 200px;
+}
+/* section about me style  */
+.section--aboutme{
+    max-width:800px ;
+    min-width:400px ;
+    overflow:auto ;
+    background-color: rgb(128, 231, 231);
+    color: black;
+      font-weight: 900;
+text-align: center;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin: 400px auto 0 auto;
+    border: 5px solid;
+    border-color: red aqua blue grey;
+    border-radius: 25px;
+}
+/* section skills style */
+.section--skills{
+    display: block;
+  margin: 400px auto 0 auto;
+  width: 80%;
+  background-color: #FFFCFB;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: oblique;
+  border: 10px solid;
+  border-color: #11224E #F4F754 #F25912 #001BB7 ;
+}
+.section--skills--ul{
+display: inline-block;
+    list-style: none;
+    background-color: #F25912;
+    color: white;
+
+}
+.section--skills-p{
+    visibility: hidden;
+}
+
